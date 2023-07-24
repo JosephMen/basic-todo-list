@@ -28,5 +28,5 @@ Currently, two official plugins are available:
 - http://colormind.io/bootstrap/ for the choose of colors and examples
 
 ## Deploy site
-You can visit the deploy app here: https://todo-app-frander.netlify.app/
+You can visit the deploy app here: [Netlify](https://todo-app-frander.netlify.app/)
 
