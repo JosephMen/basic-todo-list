@@ -1,0 +1,85 @@
+.card {
+
+    background: var(--midle-ps-color);
+    box-sizing: border-box;
+    border-radius: 15px;
+    min-width: 350px;
+    max-width: 500px;
+    min-height: 30px;
+    height: 60px;
+
+
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    align-items: center;
+    padding: 5px;
+
+    box-shadow: 0 5px 10px grey;
+
+    transition: all .3s;
+}
+
+.card-text{
+    border-radius: 0;
+    box-shadow:none;
+    /* background-color: blue; */
+    padding: 0;
+    width: 100%;
+    height: 100%;  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+.card input[type = "text"] {
+    display: block;
+    height: 100%;
+    max-width: inherit;
+    width: 100%;
+    min-width: 300px;
+    text-align: left;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+li {
+    transition: all .3s;
+}
+li:hover{
+    transform: scale(1.1);
+}
+p{
+    margin : 0;
+    padding: 0;
+}
+.buttons-section button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 50%;
+
+}
+
+.img-btn:hover{
+    transform: scale(1.2);
+}
+.img-btn {
+    color: inherit;
+    height: 30px;
+    width: 30px;
+    transition: all .3s;
+}
+
+.Cancelar, .Eliminar{
+    color: var(--third-color)
+}
+.Editar, .Guardar{
+    color: var(--midle-ps-color)
+}
